@@ -38,7 +38,7 @@ resource "aws_instance" "jenkins_ec2_instance_ip" {
   }
 }
 
-resource "aws_key_pair" "jenkins_ec2_instance_public_key" {
-  key_name   = "aws_ec2_terraform"
-  public_key = var.public_key
-}
+# resource "aws_key_pair" "jenkins_ec2_instance_public_key" {
+#   key_name   = "cba1_keypair"
+#   public_key = var.public_key
+# }
