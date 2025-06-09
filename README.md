@@ -37,7 +37,7 @@ terraform-AWS-Jenkins-Setup/
 ├── jenkins-runner-script/
 └── README.md
 
-# 📦 How to Use
+## How to Use
 
 Clone the repository:
 git clone https://github.com/Emstev/Terraform-AWS-Jenkins-Setup.git
