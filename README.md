@@ -42,12 +42,15 @@ terraform-AWS-Jenkins-Setup/
 Clone the repository:
 git clone https://github.com/Emstev/Terraform-AWS-Jenkins-Setup.git
 cd Terraform-AWS-Jenkins-Setup
-Initialize Terraform:
+
+## Initialize Terraform:
 terraform init
-Review and apply the plan:
+
+## Review and apply the plan:
 terraform plan
 terraform apply
-Access Jenkins via the ALB DNS or your custom domain (if Route 53 is configured).
+
+Access Jenkins via the public ip address:8080,  ALB DNS or your custom domain (if Route 53 is configured).
 
 👨‍💻 Author
 Emmanuel Ekwonu – LinkedIn
